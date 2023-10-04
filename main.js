@@ -4,7 +4,8 @@ import '@picocss/pico'
 
 // Our stylesheet.
 import './style.css'
-
+import './hero-animation';
+import './hero-animation.css';
 
 // We can import raw code fragments for samples, like this:
 import fragment from './code-fragments/fragment.js?raw'

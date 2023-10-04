@@ -1,0 +1,66 @@
+
+/* From https://tobiasahlin.com/moving-letters/#8 */
+h1.ml8 {
+  font-weight: 800;
+  font-size: 135px;
+  color: #fff;
+  width: 3em;
+  height: 3em;
+}
+
+.ml8 .letters-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  height: 1em;
+}
+
+.ml8 .letters {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  line-height: 0.7em;
+  right: -0.12em;
+  top: -0.2em;
+}
+
+.ml8 .bang {
+  font-size: 2em;
+  top: auto;
+  left: -0.06em;
+}
+
+.ml8 .circle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+
+.ml8 .circle-white {
+  width: 30em;
+  height: 30em;
+  border: 2px dashed white;
+  border-radius: 50%;
+}
+
+.ml8 .circle-dark {
+  width: 800px;
+  height: 800px;
+  background-color: #4f7b86;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.ml8 .circle-dark-dashed {
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px dashed #4f7b86;
+  width: 850px;
+  height: 850px;
+}
