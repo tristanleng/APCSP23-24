@@ -7,14 +7,18 @@ body {
   text-align: center;
   display: grid;
   place-content: center;
+  /* Full width */
   width: 100%;
+  /* Height of screen */
+  height: 100vh;
   color: #ffffff;
+  background-color: #ffffff;
   font-size: 80px;
   box-sizing: border-box;
-  /* uncomment to fix */
-/*  
-  position: fixed;
-  top: 0;
-  left: 0;
- */ 
+  /*  to fix position on screen */
+  
+  position: fixed; /* Glue to screen */
+  top: 0; /* Glue top to 0th pixel of the top */
+  left: 0; /* Glue left to 0th pixel from left */
+ 
 }

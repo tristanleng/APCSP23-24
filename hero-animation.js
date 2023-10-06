@@ -38,7 +38,19 @@ anime.timeline({loop: false})
     duration: 1000,
     easing: "easeOutExpo",
     delay: 1400
-  });
+  })
+  .add({
+    targets : '.hero',
+    opacity: 0,
+    duration: 2000
+  })
+  .add({
+    targets : '.hero',
+    display: 'none'
+  }
+  )
+  
+  ;
 
 anime({
   targets: '.ml8 .circle-dark-dashed',
