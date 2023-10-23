@@ -6,7 +6,8 @@ import '@picocss/pico'
 import './style.css'
 import './hero-animation';
 import './hero-animation.css';
-
+import './background-animation.css';
+import './background-animation.js';
 // We can import raw code fragments for samples, like this:
 import fragment from './code-fragments/fragment.js?raw'
 document.querySelector('#fragment').textContent = fragment;

@@ -64,3 +64,23 @@ h1.ml8 {
   width: 850px;
   height: 850px;
 }
+.hero {
+  text-align: center;
+  pointer-events:none;
+  display: grid;
+  place-content: center;
+  /* Full width */
+  width: 100%;
+  /* Height of screen */
+  height: 100vh;
+  color: ##68a2b1;;
+  background-color: #ffffff;
+  font-size: 80px;
+  box-sizing: border-box;
+  /*  to fix position on screen */
+
+  position: fixed; /* Glue to screen */
+  top: 0; /* Glue top to 0th pixel of the top */
+  left: 0; /* Glue left to 0th pixel from left */
+
+}
