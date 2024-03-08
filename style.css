@@ -22,3 +22,7 @@ body {
   left: 0; /* Glue left to 0th pixel from left */
  
 }
+
+#Particles {
+  pointer-events: none;
+}
